@@ -7,4 +7,4 @@ rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key
 yum install jenkins -y
 service jenkins start
 cat /var/lib/jenkins/secrets/initialAdminPassword
-echo "copy and in the password to the jenkins ui" 
+echo "copy the above password and past it into the jenkins ui" 
